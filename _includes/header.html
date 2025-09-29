@@ -1,0 +1,11 @@
+<header>
+    <div class="logo">🌾🍚 SEATST 🍚🌾</div>
+    <nav>
+      <ul>
+      {% for link in site.nav_links %}
+        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  

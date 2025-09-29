@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | SEATST</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🌾🍚 SEATST 🍚🌾</div>
+    <nav>
+      <ul>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/about/">About</a></li>
+      
+        <li><a href="/rules/">Rules</a></li>
+      
+        <li><a href="/call-for-tasks/">Call for Tasks</a></li>
+      
+        <li><a href="/team/">SEATST 2026 Team</a></li>
+      
+      </ul>
+    </nav>
+  </header>
+  
+
+  <main>
+    <h2 id="schedule">Schedule</h2>
+
+<p>There will be two contest days. On each day contestants will be given three tasks to complete in 5 hours.</p>
+
+<ul>
+  <li>Contest Day 1: TBD</li>
+  <li>Contest Day 2: TBD</li>
+</ul>
+
+<p>There will be an online Practice Contest prior to Contest Day 1, to familiarise all contestants with the grading system and task types.</p>
+
+<h2 id="grading-system">Grading System</h2>
+
+<p>Grading and evaluation will take place on <a href="https://tlx.toki.id/">TLX</a>. Each contestant will be assigned an account on TLX. Due to differences in software configurations, it is not guaranteed that contestant workstations and grading workstations will have an identical execution environment.</p>
+
+<h2 id="contestant-workstations">Contestant Workstations</h2>
+
+<p>Each contestant will be assigned a workstation. Contestants can expect the following software on the workstation:</p>
+<ul>
+  <li>Operating System: Ubuntu 22.04 LTS</li>
+  <li>Text Editors and IDEs: Geany, Visual Studio Code, command line vim and nano</li>
+  <li>Internet Browsers: Firefox</li>
+  <li>Compilers: g++ 11.4.0
+    <ul>
+      <li>C++17 source code can be compiled, including from multiple source files.</li>
+    </ul>
+  </li>
+  <li>Interpreters: Python 3.10.6</li>
+  <li>Documentations: C++ reference</li>
+</ul>
+
+<h2 id="tasks">Tasks</h2>
+
+<p>Each task is either a programming task or an output-only task.</p>
+
+<ul>
+  <li>In each programming task:
+    <ul>
+      <li>Each submitted solution must be written in C++17.</li>
+      <li>Submissions must not perform explicit input and output operations; instead, data must only be exchanged through the interfaces specified in the task statement. In particular, direct access to any file, including standard input or standard output, is forbidden (however, writing to standard error is allowed).</li>
+      <li>Time and memory limits are specified at the top of the task description.</li>
+    </ul>
+  </li>
+  <li>In each output-only task:
+    <ul>
+      <li>Each submission is a set of output files.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Contestants may perform at most 50 submissions for each task. Contestants may submit as often as they wish (i.e. there is no submission delay).</p>
+
+<p>The scores for each task will be calculated as follows:</p>
+
+<ul>
+  <li>Each subtask consists of some number of test cases. Unless specified otherwise, in each programming task the submission is executed once per test case.</li>
+  <li>For each submission, the score for each test case is calculated based on the program execution and/or the output.</li>
+  <li>The program execution on each test case is subject to time and memory limits, which are given in the grading system. If the program exceeds these limits, it receives 0 points for this test case.</li>
+  <li>Each task is divided into some number of subtasks, each worth a portion of the total points. The total points for each task is 100 points.</li>
+  <li>For each submission, the score for each subtask is the minimum of the scores for the test cases in the subtask.</li>
+  <li>The final score for each subtask is the maximum of the scores for this subtask across all submissions.</li>
+  <li>The final score for each task is the sum of the scores for its subtasks. Note that subtask stitching is enabled in TLX.
+    <ul>
+      <li>For example, consider a contestant who made two submissions on a task that contains two subtasks. If the first submitted solution got 30 points for the first subtask and 10 points for the second subtask, and the second solution got 0 points for the first subtask and 40 points for the second subtask, then the final score for this task will be 70.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="supplies">Supplies</h2>
+
+<p>On the competition days, contestants may not bring anything into the competition rooms, except for the following items under the proviso that they cannot transmit or store any data in electronic or printed or other written format (other than the purpose for which they have been designed):</p>
+
+<ul>
+  <li>clothing,</li>
+  <li>writing utensils,</li>
+  <li>USB keyboards and mice (with no wireless communication and no programmable functions whose configuration is retained when unplugged),</li>
+  <li>mouse pads,</li>
+  <li>small mascots,</li>
+  <li>snacks,</li>
+  <li>medicine and medical equipment,</li>
+  <li>earplugs and earmuffs.</li>
+</ul>
+
+<p>Contestants must declare and receive prior approval for their usage of USB keyboards and mice from the invigilators onsite.</p>
+
+<p>Any attempts to bring any other items unlisted above into the contest room are considered cheating. In particular, the following items are strictly prohibited:</p>
+
+<ul>
+  <li>any computing equipment (e.g. calculators, laptops, tablets),</li>
+  <li>any keyboards or mice, with wireless communication or programmable functions whose configuration is retained when unplugged,</li>
+  <li>any books, manuals, written or printed materials,</li>
+  <li>any data storage medium (e.g., CD-ROMs, USB drives, flash cards, micro-drives),</li>
+  <li>any communication devices (e.g., mobile phones, radios of any sort, Bluetooth-enabled devices),</li>
+  <li>watches of any type,</li>
+  <li>any earphones, headphones, microphones and speakers.</li>
+</ul>
+
+<h2 id="clarification-requests">Clarification Requests</h2>
+
+<p>During the competition, contestants may ask questions concerning competition tasks, rules and/or grading via the grading system. Questions regarding the competition tasks should be phrased, so that a yes/no answer will have a clear meaning. Questions regarding the competition tasks will be answered with one of the following:</p>
+
+<ul>
+  <li>“Yes”</li>
+  <li>“No”</li>
+  <li>“No comment/Please refer to task statement”</li>
+  <li>“Invalid question (not a Yes/No question)” — The question is most likely not phrased so that a yes/no answer would be meaningful. The contestant is encouraged to rephrase the question.</li>
+</ul>
+
+<h2 id="cheating">Cheating</h2>
+
+<p>Violating any of the following rules is considered cheating, and may result in disqualification:</p>
+
+<ul>
+  <li>contestants must use only the TLX account and workstation assigned to them on each competition day;</li>
+  <li>contestants must not try to tamper with or compromise the grading system;</li>
+  <li>contestants must not attempt to gain access to root or any account other than the one assigned to them;</li>
+  <li>contestants must not touch any workstation other than the one assigned to them;</li>
+  <li>contestants must not attempt to bring items not explicitly allowed in “Supplies” into the contest room;</li>
+  <li>contestants must not attempt to access any machine on the network or the Internet, other than to access the contest system for usual purposes (e.g. submitting tasks, viewing submission results, downloading sample data, submitting Clarification Requests); even running a single “ping” command is strictly prohibited and may lead to disqualification;</li>
+  <li>contestants must not attempt to reboot or alter the boot sequence of any workstation;</li>
+  <li>contestants must not communicate with other people during the competition, other than the invigilators, and/or Scientific/Technical Committee members;</li>
+  <li>contestants must not attempt to gain any information about the tasks before the start of the contest;</li>
+  <li>contestants must not reverse engineer the test data in order to solve the problems in highly test-data-dependent manners. One example of such behavior is using the feedback system to extract the test data and then applying this knowledge to build solutions adapted to the specific test cases in the grading system. This behavior would be considered cheating only if a contestant submits a solution that would solve significantly fewer test cases correctly if the test data were replaced by an equivalent set of test cases (e.g., one generated with a different random seed).</li>
+</ul>
+
+  </main>
+</body>
+</html>

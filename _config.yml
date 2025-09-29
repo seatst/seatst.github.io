@@ -1,0 +1,14 @@
+title: SEATST
+description: South East Asia Team Selection Test
+theme: null
+nav_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Rules
+    url: /rules/
+  - title: Call for Tasks
+    url: /call-for-tasks/
+  - title: SEATST 2026 Team
+    url: /team/
