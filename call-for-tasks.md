@@ -1,5 +1,6 @@
 ---
 layout: default
-title: About
+title: Call for Tasks
+permalink: /call-for-tasks/
 ---
 

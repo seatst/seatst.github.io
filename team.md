@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About
+title: Team
+permalink: /team/
 ---
 
 ## Scientific Committee
