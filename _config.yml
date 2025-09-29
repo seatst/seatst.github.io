@@ -2,9 +2,6 @@ title: SEATST
 description: South East Asia Team Selection Test
 theme: null
 
-url: "https://seatst.github.io"
-baseurl: ""
-
 nav_links:
   - title: Home
     url: /
