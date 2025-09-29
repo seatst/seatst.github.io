@@ -33,7 +33,7 @@ header nav a {
 }
 
 .committee {
-  max-width: 700px;
+  max-width: 70ch;
   margin: 2em auto;
   display: flex;
   flex-direction: column;
