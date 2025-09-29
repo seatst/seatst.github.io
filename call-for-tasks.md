@@ -71,10 +71,10 @@ The submission deadline is <span style="color: red;">15 February 2026, 23:59 GMT
 - At various moments during the preparation of the SEATST 2026 competition, it is possible that submitted tasks are dropped from further consideration. However, it may still be necessary to revert such decisions later.
 - <span style="color: red;">In general, all submitted tasks, whether dropped or not, should be kept secret until the end of competition.</span>
 - Authors of submitted tasks will be recognized on the SEATST website by listing their name, affiliation, and country (unless they specifically decline this).
-- Each problem that’s actually used in the competition will be rewarded with SGD500 after the end of the event. 
+- Each problem that’s actually used in the competition will be rewarded with 500 SGD after the end of the event. 
 
 ## Communication on Discord
 
 Authors may opt in to a private SEATST Discord server for quicker clarifications and coordination with the Scientific Committee. To join, include your Discord handle in the submission email.
 
-Authors may additionally assist in task preparation for an **additional** reward of up to SGD500.
+Authors may additionally assist in task preparation for an **additional** reward of up to 500 SGD.
