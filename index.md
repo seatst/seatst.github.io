@@ -10,13 +10,13 @@ title: Home
   <h2>Sponsored by <a href="https://www.hudsonrivertrading.com/" target="_blank" rel="noopener">HRT</a></h2>
 </div>
 
-Southeast Asia Team Selection Test (SEATST) is a two-day contest meant for IOI selection mainly in Southeast Asian countries.
+Southeast Asia Team Selection Test (SEATST) is a two-day contest primarily used for International Olympiad in Informatics (IOI) selection in Southeast Asian countries.
 
-SEATST 2026 is planned to be held on a weekend in around May 2026. The exact dates will be annouced at a later date.
+SEATST 2026 is planned to be held on a weekend in around May 2026. The exact dates will be announced closer to the event.
 
-SEATST 2025 was used for the IOI 2025 selections of Singapore, Indonesia, Malaysia and Pakistan. The SEATST 2025 problems can be found here ([day 1](https://codebreaker.xyz/contest/seatst2025d1), [day 2](https://codebreaker.xyz/contest/seatst2025d2)) as a reference.
+SEATST 2025 was used for the IOI 2025 selections of Singapore, Indonesia, Malaysia and Pakistan. The SEATST 2025 problems are available here as a reference: [Day 1](https://codebreaker.xyz/contest/seatst2025d1), [Day 2](https://codebreaker.xyz/contest/seatst2025d2).
 
-All [ASEAN member state](https://asean.org/member-states/) is welcomed to participate in SEATST 2026 free of charge. Non-ASEAN member states can also use our TST, but will have to pay a small participation fee of <span style="color: red;">20 SGD</span> per contestant.
+All [ASEAN member states](https://asean.org/member-states/) are welcomed to participate in SEATST 2026 free of charge. Non-ASEAN member states can also use our TST, but will have to pay a small participation fee of <span style="color: red;">20 SGD</span> per contestant.
 
 SEATST replaced APIO as a crucial component of IOI selection in Singapore. We have received excellent feedback from Singaporean students comparing SEATST and APIO in IOI selections.
 
