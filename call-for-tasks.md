@@ -77,4 +77,4 @@ The submission deadline is <span style="color: red;">15 February 2026, 23:59 GMT
 
 Authors may opt in to a private SEATST Discord server for quicker clarifications and coordination with the Scientific Committee. To join, include your Discord handle in the submission email.
 
-Authors may additionally assist in task preparation for an **additional** reward of up to 500 SGD.
+Authors may additionally assist in task preparation for an **additional** reward of **up to** 300 SGD.
