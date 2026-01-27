@@ -19,7 +19,7 @@ Grading and evaluation will take place on [TLX](https://tlx.toki.id/). Each cont
 
 ## Contestant Workstations
 
-Each contestant will be assigned a workstation. Contestants can expect the following software on the workstation:
+Each contestant will be assigned a workstation. The tentative recommended set up for the workstation is:
 - Operating System: Ubuntu 22.04 LTS
 - Text Editors and IDEs: Geany, Visual Studio Code, command line vim and nano
 - Internet Browsers: Firefox
