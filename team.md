@@ -13,7 +13,7 @@ permalink: /team/
     <div class="info">
       <h3>Ashley Aragorn Khoo 🇸🇬</h3>
       <p>
-        National University of Singapore
+        Google DeepMind
       </p>
     </div>
   </div>
