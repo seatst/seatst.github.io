@@ -8,8 +8,8 @@ permalink: /rules/
 
 There will be two contest days. On each day contestants will be given three tasks to complete in 5 hours.
 
-- Contest Day 1: TBD
-- Contest Day 2: TBD
+- Contest Day 1: Saturday, 23 May 2026
+- Contest Day 2: Sunday, 24 May 2026
 
 There will be an online Practice Contest prior to Contest Day 1, to familiarise all contestants with the grading system and task types.
 
