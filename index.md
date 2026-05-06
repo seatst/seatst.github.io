@@ -13,7 +13,7 @@ title: Home
 
 Southeast Asia Team Selection Test (SEATST) is a two-day contest primarily used for International Olympiad in Informatics (IOI) selection in Southeast Asian countries.
 
-SEATST 2026 is planned to be held on a weekend in around May 2026. The exact dates will be announced closer to the event.
+SEATST 2026 is planned to be held on 23 and 24 May 2026, 1-6 pm (GMT+8).
 
 SEATST 2025 was used for the IOI 2025 selections of Singapore, Indonesia, Malaysia and Pakistan. The SEATST 2025 problems are available here as a reference: [Day 1](https://codebreaker.xyz/contest/seatst2025d1), [Day 2](https://codebreaker.xyz/contest/seatst2025d2).
 
