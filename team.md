@@ -43,7 +43,6 @@ permalink: /team/
     <div class="info">
       <h3>Prabowo Djonatan 🇮🇩</h3>
       <p>
-        Tiktok
       </p>
     </div>
   </div>
