@@ -24,7 +24,7 @@ Each contestant will be assigned a workstation. The tentative recommended set up
 - Text Editors and IDEs: Geany, Visual Studio Code, command line vim and nano
 - Internet Browsers: Firefox
 - Compilers: g++ 11.4.0
-    - C++17 source code can be compiled, including from multiple source files.
+    - C++20 source code can be compiled, including from multiple source files.
 - Interpreters: Python 3.10.6
 - Documentations: C++ reference
 
@@ -33,7 +33,7 @@ Each contestant will be assigned a workstation. The tentative recommended set up
 Each task is either a programming task or an output-only task.
 
 - In each programming task:
-    - Each submitted solution must be written in C++17.
+    - Each submitted solution must be written in C++20.
     - Submissions must not perform explicit input and output operations; instead, data must only be exchanged through the interfaces specified in the task statement. In particular, direct access to any file, including standard input or standard output, is forbidden (however, writing to standard error is allowed).
     - Time and memory limits are specified at the top of the task description.
 - In each output-only task:
