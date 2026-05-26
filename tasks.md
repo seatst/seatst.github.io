@@ -6,8 +6,6 @@ permalink: /tasks/
 
 # SEATST 2026 Tasks
 
-Problems from Day 1 and Day 2 of SEATST 2026. Task statements and test data will be linked here once they are published.
-
 ## Day 1
 
 ### Two Exams (exam)
