@@ -13,37 +13,37 @@ Problems from Day 1 and Day 2 of SEATST 2026. Task statements and test data will
 ### Two Exams (exam)
 
 - Author: Sora Todaka (Japan)
-- [Task statement](#)
+- [Task statement](https://tlx.toki.id/problems/seatst-2026/1A)
 - Test data (coming soon)
 
-### Placeholder Task B
+### Country Ranks (country)
 
-- Author: Author Name 2
-- [Task statement](#)
+- Author: Dylan Dalida (Philippines)
+- [Task statement](https://tlx.toki.id/problems/seatst-2026/1B)
 - Test data (coming soon)
 
-### Placeholder Task C
+### XOR Teleport (teleport)
 
-- Author: Author Name 3
-- [Task statement](#)
+- Author: Hamed Ghaffari (Iran)
+- [Task statement](https://tlx.toki.id/problems/seatst-2026/1C)
 - Test data (coming soon)
 
 ## Day 2
 
-### Placeholder Task D
+### Triple Circuit (triple)
 
-- Author: Author Name 4
-- [Task statement](#)
+- Author: Tzu Chiao Yen (Taiwan)
+- [Task statement](https://tlx.toki.id/problems/seatst-2026/2A)
 - Test data (coming soon)
 
-### Placeholder Task E
+### Car Gathering (gather)
 
-- Author: Author Name 5
-- [Task statement](#)
+- Author: Tzu Chiao Yen (Taiwan)
+- [Task statement](https://tlx.toki.id/problems/seatst-2026/2B)
 - Test data (coming soon)
 
-### Placeholder Task F
+### Troublesome Trip (trip)
 
-- Author: Author Name 6
-- [Task statement](#)
+- Author: Sun Beichen (Singapore)
+- [Task statement](https://tlx.toki.id/problems/seatst-2026/2C)
 - Test data (coming soon)
