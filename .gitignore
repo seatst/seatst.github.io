@@ -1,3 +1,5 @@
 _site/*
 
 *.lock
+.env
+.DS_Store
