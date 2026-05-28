@@ -12,19 +12,19 @@ permalink: /tasks/
 
 - Author: Sora Todaka (Japan)
 - [Task statement](https://tlx.toki.id/problems/seatst-2026/1A)
-- [Test data and supplementary materials](https://github.com/seatst/seatst-2026-materials/tree/master/exam)
+- [Test data](/assets/testdata/seatst-2026-exam-testdata.zip)
 
 ### Country Ranks (country)
 
 - Author: Dylan Dalida (Philippines)
 - [Task statement](https://tlx.toki.id/problems/seatst-2026/1B)
-- [Test data and supplementary materials](https://github.com/seatst/seatst-2026-materials/tree/master/country)
+- [Test data](/assets/testdata/seatst-2026-country-testdata.zip)
 
 ### XOR Teleport (teleport)
 
 - Author: Hamed Ghaffari (Iran)
 - [Task statement](https://tlx.toki.id/problems/seatst-2026/1C)
-- [Test data and supplementary materials](https://github.com/seatst/seatst-2026-materials/tree/master/teleport)
+- [Test data](/assets/testdata/seatst-2026-teleport-testdata.zip)
 
 ## Day 2
 
@@ -32,16 +32,16 @@ permalink: /tasks/
 
 - Author: Tzu Chiao Yen (Taiwan)
 - [Task statement](https://tlx.toki.id/problems/seatst-2026/2A)
-- [Test data and supplementary materials](https://github.com/seatst/seatst-2026-materials/tree/master/triple)
+- [Test data](/assets/testdata/seatst-2026-triple-testdata.zip)
 
 ### Car Gathering (gather)
 
 - Author: Tzu Chiao Yen (Taiwan)
 - [Task statement](https://tlx.toki.id/problems/seatst-2026/2B)
-- [Test data and supplementary materials](https://github.com/seatst/seatst-2026-materials/tree/master/gather)
+- [Test data](/assets/testdata/seatst-2026-gather-testdata.zip)
 
 ### Troublesome Trip (trip)
 
 - Author: Sun Beichen (Singapore)
 - [Task statement](https://tlx.toki.id/problems/seatst-2026/2C)
-- [Test data and supplementary materials](https://github.com/seatst/seatst-2026-materials/tree/master/trip)
+- [Test data](/assets/testdata/seatst-2026-trip-testdata.zip)
