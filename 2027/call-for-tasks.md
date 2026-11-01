@@ -75,3 +75,5 @@ The submission deadline is <span style="color: red;">31 January 2027, 23:59 GMT+
 ## Communication on Discord
 
 Authors may opt in to a private SEATST Discord server for quicker clarifications and coordination with the Scientific Committee. To join, include your Discord handle in the submission email.
+
+Authors may additionally assist in task preparation for an **additional** reward of **up to** 300 USD.
