@@ -1,12 +1,11 @@
 ---
 layout: default
 title: Call for Tasks
-permalink: /call-for-tasks/
 ---
 
 ## Call for Tasks
 
-The Southeast Asia Team Selection Test (SEATST) is an online IOI-like competition mainly for the South East Asia region. SEATST 2026 will be held on TBD. The scientific committee of SEATST invites everyone in the programming competitions community to submit tasks for the SEATST 2026 competition. Guidelines for tasks and instructions for submission are given below. 
+The Southeast Asia Team Selection Test (SEATST) is an online IOI-like competition mainly for the South East Asia region. SEATST {{ page.year }} will be held on TBD. The scientific committee of SEATST invites everyone in the programming competitions community to submit tasks for the SEATST {{ page.year }} competition. Guidelines for tasks and instructions for submission are given below. 
 
 ## SEATST Competition Tasks
 
@@ -18,7 +17,7 @@ The submission of novel tasks types not yet seen in any recent programming compe
 
 To ensure a fair and interesting competition for all, tasks should satisfy the following conditions:
 
-- The tasks should not have been seen by any potential SEATST 2026 competitors.
+- The tasks should not have been seen by any potential SEATST {{ page.year }} competitors.
 - The tasks should not have been used in any similar competition.
 - The tasks should be solvable by SEATST competitors during an SEATST competition round.
 - The task descriptions should be unambiguous and easy to understand.
@@ -38,7 +37,7 @@ As SEATST is a team selection test, we also welcome problems with a more classic
 - Statement in English, preferably formatted in PDF with required diagrams and pictures included.
 - Description of the desired solution (a description of an algorithm which should get full score).
 - At least one implementation of the desired solution in C++.
-- Contact (preferably discord handle and e-mail address) and background information on the task author(s): affiliation, country, and a description of the author’s role in the IOI team selection process or national olympiad, including training duties, over the period from IOI 2025 to IOI 2026. 
+- Contact (preferably discord handle and e-mail address) and background information on the task author(s): affiliation, country, and a description of the author’s role in the IOI team selection process or national olympiad, including training duties, over the period from IOI {{ page.year | minus: 1 }} to IOI {{ page.year }}. 
 
 **It is also strongly recommended to contain:**
 
@@ -48,7 +47,7 @@ As SEATST is a team selection test, we also welcome problems with a more classic
 - The motivation behind the task.
 
 Any comments related to the task are also welcome and would be highly appreciated.
-Submitted tasks must be kept in strict confidence until the **end of SEATST 2026**. 
+Submitted tasks must be kept in strict confidence until the **end of SEATST {{ page.year }}**. 
 
 **NOTES:**
 
@@ -68,7 +67,7 @@ The submission deadline is <span style="color: red;">15 February 2026, 23:59 GMT
 
 - Tasks that are not used will be kept secret, and will be returned to their submitter so that they can be used elsewhere.
 - All submitted tasks will be seen only by the SEATST scientific committee.
-- At various moments during the preparation of the SEATST 2026 competition, it is possible that submitted tasks are dropped from further consideration. However, it may still be necessary to revert such decisions later.
+- At various moments during the preparation of the SEATST {{ page.year }} competition, it is possible that submitted tasks are dropped from further consideration. However, it may still be necessary to revert such decisions later.
 - <span style="color: red;">In general, all submitted tasks, whether dropped or not, should be kept secret until the end of competition.</span>
 - Authors of submitted tasks will be recognized on the SEATST website by listing their name, affiliation, and country (unless they specifically decline this).
 - Each problem that’s actually used in the competition will be rewarded with 500 SGD after the end of the event. 

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign year_key = page.year | append: "" %}
+<h1>SEATST {{ page.year }} Tasks</h1>
+
+{% for day in site.data.tasks[year_key] %}
+<h2>Day {{ day.day }}</h2>
+  {% for task in day.tasks %}
+<h3>{{ task.name }} ({{ task.id }})</h3>
+<ul>
+  <li>Author: {{ task.author }}</li>
+  <li><a href="https://tlx.toki.id/problems/seatst-{{ page.year }}/{{ task.tlx }}">Task statement</a></li>
+  <li><a href="https://github.com/seatst/seatst-{{ page.year }}-materials/tree/master/{{ task.id }}">Test data and supplementary materials</a></li>
+  {% capture testdata_url %}/assets/testdata/seatst-{{ page.year }}-{{ task.id }}-testdata.zip{% endcapture %}
+  <li><a href="{{ testdata_url | relative_url }}">Test data (zip)</a></li>
+</ul>
+  {% endfor %}
+{% endfor %}
+
+{{ content }}

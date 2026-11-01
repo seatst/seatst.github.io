@@ -1,0 +1,31 @@
+---
+layout: default
+wide: true
+---
+{% capture ranking_csv %}{% if page.year == 2026 %}/assets/data/ranking.csv{% else %}/{{ page.year }}/ranking.csv{% endif %}{% endcapture %}
+<section class="ranking-heading">
+  <div>
+    <h1>SEATST {{ page.year }} Ranking</h1>
+    <p>Official standings will be shown after score verification.</p>
+  </div>
+  <a class="ranking-download" href="{{ ranking_csv | relative_url }}" download>Download CSV</a>
+</section>
+
+<div class="ranking-table-wrap" role="region" aria-label="SEATST {{ page.year }} ranking table" tabindex="0">
+  <table class="ranking-table" data-ranking-src="{{ ranking_csv | relative_url }}">
+    <thead></thead>
+    <tbody>
+      <tr class="ranking-empty">
+        <td>Loading ranking data...</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<noscript>
+  <p class="ranking-status">Ranking data is available in the downloadable CSV file.</p>
+</noscript>
+
+<script src="{{ "/assets/scripts/ranking.js" | relative_url }}"></script>
+
+{{ content }}

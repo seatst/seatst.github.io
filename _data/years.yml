@@ -1,0 +1,5 @@
+# Newest first. `pages` controls which nav links appear for that year (in order).
+- year: 2027
+  pages: [rules, call-for-tasks, team]
+- year: 2026
+  pages: [rules, call-for-tasks, ranking, tasks, team]

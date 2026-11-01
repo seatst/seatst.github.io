@@ -1,17 +1,36 @@
 title: SEATST
 description: South East Asia Team Selection Test
 theme: null
+permalink: pretty
 
-nav_links:
-  - title: Home
-    url: /
-  - title: Rules
-    url: /rules/
-  - title: Call for Tasks
-    url: /call-for-tasks/
-  - title: Ranking
-    url: /ranking/
-  - title: Tasks
-    url: /tasks/
-  - title: SEATST 2026 Team
-    url: /team/
+# The year shown on the landing page and in the nav of non-year pages.
+current_year: 2027
+
+# Nav titles for per-year pages. Which pages each year has is set in _data/years.yml.
+year_pages:
+  rules: Rules
+  call-for-tasks: Call for Tasks
+  ranking: Ranking
+  tasks: Tasks
+  team: Team
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .env
+  - AGENTS.md
+  - "seatst-*"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "2026"
+    values:
+      year: 2026
+  - scope:
+      path: "2027"
+    values:
+      year: 2027

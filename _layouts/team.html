@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign year_key = page.year | append: "" %}
+<h1>SEATST {{ page.year }} Team</h1>
+
+{% for group in site.data.team[year_key] %}
+<h2>{{ group.section }}</h2>
+
+<div class="committee">
+  {% for member in group.members %}
+  <div class="member">
+    <img src="{{ "/assets/images/" | append: member.image | relative_url }}" alt="{{ member.name }}">
+    <div class="info">
+      <h3>{{ member.name }} {{ member.flag }}</h3>
+      <p>{{ member.affiliation }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+
+{{ content }}

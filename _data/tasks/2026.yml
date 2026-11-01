@@ -1,0 +1,30 @@
+# `tlx` is the problem code on https://tlx.toki.id/problems/seatst-2026/<tlx>
+# Test data is expected at /2026/testdata/seatst-2026-<id>-testdata.zip
+- day: 1
+  tasks:
+    - name: Two Exams
+      id: exam
+      author: Sora Todaka (Japan)
+      tlx: 1A
+    - name: Country Ranks
+      id: country
+      author: Dylan Dalida (Philippines)
+      tlx: 1B
+    - name: XOR Teleport
+      id: teleport
+      author: Hamed Ghaffari (Iran)
+      tlx: 1C
+- day: 2
+  tasks:
+    - name: Triple Circuit
+      id: triple
+      author: Tzu Chiao Yen (Taiwan)
+      tlx: 2A
+    - name: Car Gathering
+      id: gather
+      author: Tzu Chiao Yen (Taiwan)
+      tlx: 2B
+    - name: Troublesome Trip
+      id: trip
+      author: Sun Beichen (Singapore)
+      tlx: 2C

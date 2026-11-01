@@ -1,0 +1,25 @@
+# `image` is a file name in /assets/images/
+- section: Scientific Committee
+  members:
+    - name: Ashley Aragorn Khoo
+      flag: 🇸🇬
+      affiliation: Google DeepMind
+      image: ashley.jpeg
+    - name: Joel Gunawan
+      flag: 🇮🇩
+      affiliation: The University of British Columbia
+      image: joel.jpeg
+    - name: Chew Shao Qian
+      flag: 🇲🇾
+      affiliation: National Taiwan Normal University
+      image: shaoqian.jpeg
+    - name: Prabowo Djonatan
+      flag: 🇮🇩
+      affiliation: ""
+      image: prabowo.jpg
+- section: Technical Committee
+  members:
+    - name: Ashar Fuadi
+      flag: 🇮🇩
+      affiliation: ""
+      image: fushar.jpg

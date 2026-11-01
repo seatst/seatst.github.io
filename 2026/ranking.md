@@ -1,0 +1,4 @@
+---
+layout: ranking
+title: Ranking
+---

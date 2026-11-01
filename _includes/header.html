@@ -1,11 +1,26 @@
+{% assign nav_year = page.year | default: site.current_year %}
+{% assign nav_year_data = site.data.years | where: "year", nav_year | first %}
+{% assign current_slug = page.name | remove: ".md" | remove: ".html" %}
 <header>
-    <div class="logo">🌏 SEATST 🌏</div>
+    <div class="logo"><a href="{{ "/" | relative_url }}">🌏 SEATST 🌏</a></div>
     <nav>
       <ul>
-      {% for link in site.nav_links %}
-        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+        <li><a href="{{ "/" | append: nav_year | append: "/" | relative_url }}"{% if current_slug == "index" %} aria-current="page"{% endif %}>SEATST {{ nav_year }}</a></li>
+      {% for slug in nav_year_data.pages %}
+        <li><a href="{{ "/" | append: nav_year | append: "/" | append: slug | append: "/" | relative_url }}"{% if slug == current_slug %} aria-current="page"{% endif %}>{{ site.year_pages[slug] }}</a></li>
       {% endfor %}
+        <li>
+          <select class="year-switcher" aria-label="Select year" onchange="window.location.href = this.value">
+          {% for y in site.data.years %}
+            {% if y.pages contains current_slug %}
+              {% capture year_url %}/{{ y.year }}/{{ current_slug }}/{% endcapture %}
+            {% else %}
+              {% capture year_url %}/{{ y.year }}/{% endcapture %}
+            {% endif %}
+            <option value="{{ year_url | relative_url }}"{% if y.year == nav_year %} selected{% endif %}>{{ y.year }}</option>
+          {% endfor %}
+          </select>
+        </li>
       </ul>
     </nav>
   </header>
-  

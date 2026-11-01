@@ -1,0 +1,13 @@
+{% if page.redirect_to == "latest" %}{% capture redirect_target %}/{{ site.current_year }}/{% endcapture %}{% else %}{% assign redirect_target = page.redirect_to %}{% endif %}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting…</title>
+  <link rel="canonical" href="{{ redirect_target | relative_url }}">
+  <meta http-equiv="refresh" content="0; url={{ redirect_target | relative_url }}">
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <p>This page has moved to <a href="{{ redirect_target | relative_url }}">{{ redirect_target | relative_url }}</a>.</p>
+</body>
+</html>

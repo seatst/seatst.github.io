@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}{% if page.year %} {{ page.year }}{% endif %}</title>
   <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 </head>
 <body>
@@ -11,5 +12,7 @@
   <main class="site-main{% if page.wide %} site-main--wide{% endif %}">
     {{ content }}
   </main>
+
+  {% include footer.html %}
 </body>
 </html>
