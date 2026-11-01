@@ -70,7 +70,7 @@ The submission deadline is <span style="color: red;">31 January 2027, 23:59 GMT+
 - At various moments during the preparation of the SEATST {{ page.year }} competition, it is possible that submitted tasks are dropped from further consideration. However, it may still be necessary to revert such decisions later.
 - <span style="color: red;">In general, all submitted tasks, whether dropped or not, should be kept secret until the end of competition.</span>
 - Authors of submitted tasks will be recognized on the SEATST website by listing their name, affiliation, and country (unless they specifically decline this).
-- Each problem that’s actually used in the competition will be rewarded with 500 USD after the end of the event. 
+- Each problem that’s actually used in the competition will be rewarded with 500 USD after the end of the event, with an additional 200 USD for non-batch problems.
 
 ## Communication on Discord
 
